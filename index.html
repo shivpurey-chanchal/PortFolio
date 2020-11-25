@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap" rel="stylesheet" <!-- font
+        awesome -->
+    <script src="https://kit.fontawesome.com/0b7b07d2e3.js" crossorigin="anonymous"></script>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>Meet Me</title>
+</head>
+
+<body>
+    <nav>
+        <a href="#" onclick="toggle('home')">Home</a>
+        <a href="#" onclick="toggle('education')">Education</a>
+        <a href="#" onclick="toggle('contact')">Contact</a>
+        <a href="#" onclick="toggle('skills')">Skills</a>
+        <a href="" class="round"><i class="fas fa-envelope"></i></a>
+    </nav>
+    <div class="information container" style="display: block;" id="home">
+        <h1><i class="fas fa-portrait"></i> About me</h1>
+        <img src="/images/img.jpg" alt="">
+        <p>Hello Everybody, I am</p>
+        <h1>Chanchal Shivpure </h1>
+        <p><i class="far fa-calendar-alt"></i> 4th september 1993</p>
+        <p><i class="fas fa-phone-volume"></i> +(91) 9340970061</p>
+        <p><i class="fas fa-envelope"></i> shivpurey.chanchal00@gmail.com</p>
+        <p><i class="fas fa-home"></i> Dewas M.P.</p>
+    </div>
+    <div class="information container" style="display: none;" id="education">
+        <h1><i class="fa fa-graduation-cap"></i> Education</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Qualification</th>
+                    <th>Board/University</th>
+                    <th>Percentage</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>M.C.A</td>
+                    <td>R.G.P.V.</td>
+                    <td>7.8(CGPA) </td>
+                </tr>
+                <tr>
+                    <td>B.C.A</td>
+                    <td>Vikram University</td>
+                    <td>78.00%</td>
+                </tr>
+                <tr>
+                    <td>Higher Secondary</td>
+                    <td>M.P. Board</td>
+                    <td>74.00%</td>
+                </tr>
+                <tr>
+                    <td>High School</td>
+                    <td>M.P. Board</td>
+                    <td>56.00%</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="information container" style="display: none;" id="contact">
+        <h1><i class="far fa-address-card"></i> Contact</h1>
+        <div class="social">
+            <a href=""><i class="fab fa-facebook-square"></i> Facebook</a>
+            <a href=""><i class="fab fa-github"></i> Github</a>
+            <a href=""><i class="fab fa-instagram"></i> Instagram</a>
+            <a href=""><i class="fab fa-linkedin"></i> Linkedin</a>
+        </div>
+    </div>
+    <div class="information container" style="display: none;" id="skills">
+        <h1><i class="fas fa-code"></i> Skills</h1>
+        <p><i class="fab fa-html5"></i> HTML</p>
+        <p><i class="fab fa-css3-alt"></i> CSS</p>
+        <p><i class="fab fa-js-square"></i> JavaScript(Basics)</p>
+        <p><i class="fab fa-bootstrap"></i> Bootstrap</p>
+    </div>
+
+    <!-- JS File -->
+    <script src="/JS/script.js"></script>
+</body>
+
+</html>
